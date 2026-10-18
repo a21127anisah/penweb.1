@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Saya</title>
+    
+    <!-- CSS digabung langsung di dalam file HTML menggunakan tag <style> -->
+    <style>
+        /* Menghapus margin bawaan browser */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Mengatur Latar Belakang dan Menempatkan Konten tepat di Tengah Layar */
+        body {
+            background-color: #d8dfd0; /* Warna hijau sage */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center; /* Membuat posisi horizontal di tengah */
+            align-items: center;     /* Membuat posisi vertikal di tengah */
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container Pembungkus Utama */
+        .container {
+            width: 100%;
+            max-width: 500px; /* Batas lebar tampilan di tengah */
+            text-align: center; /* Membuat semua teks di tengah */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Membuat gambar dan tombol presisi di tengah */
+        }
+
+        /* Subtitle Atas */
+        .top-title {
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            color: #2b3a2d;
+        }
+
+        /* Foto Bulat di Tengah */
+        .profile-avatar {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%; /* Membuat foto berbentuk lingkaran sempurna */
+            overflow: hidden;
+            border: 3px solid #1c2b1e;
+            background-color: #b22222; /* Warna merah latar belakang foto */
+            margin-bottom: 20px;
+        }
+
+        .profile-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Judul Utama */
+        .main-title {
+            font-size: 28px;
+            color: #111111;
+            margin-bottom: 8px;
+        }
+
+        /* Subtitle Bawah Judul */
+        .sub-title {
+            font-size: 14px;
+            color: #2b3a2d;
+            margin-bottom: 25px;
+        }
+
+        /* Desain Daftar Tombol */
+        .menu-list {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        /* Desain Masing-Masing Tombol */
+        .menu-button {
+            background-color: #2e4332; /* Warna hijau tua tombol */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 14px;
+            box-shadow: 0 0 0 3px #bfca18; /* Garis tepi luar ganda */
+            display: block;
+            transition: 0.3s;
+        }
+
+        .menu-button:hover {
+            background-color: #1f2e22;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container utama untuk mengatur semua elemen berada di tengah -->
+    <div class="container">
+        
+        <p class="top-title">HALO SEMUANYA!</p>
+
+        <!-- Elemen Foto Bulat -->
+        <div class="profile-avatar">
+            <img src="filegambar.anisah.jpeg/Foto_anisah.jpeg" alt="Foto Profil"> <!-- Ganti foto.jpg sesuai nama file gambar Anda -->
+        </div>
+
+        <h1 class="main-title">Selamat Datang Di Web Saya</h1>
+
+        <p class="sub-title">❀ Mengenal lebih dekat tentang saya ❀</p>
+
+        <!-- Tombol - Tombol -->
+        <div class="menu-list">
+            <a href= "profile.html" class="menu-button">
+              <span class="btn-text">MY PROFILE</span>
+            <a href="About.html" class="menu-button">
+              <span class="btn-text"> ABOUT ME</span>
+            <a href="hobi.html" class="menu-button">
+              <span class= "btn-text">MY HOBBIES</span>
+            <a href="from2.html" class="menu-button">
+                <span class="btn-text">FROM</span>
+            <a href= "pendidikan.html" class="menu-button" >
+              <span class="btn-text" >EDUCATION</span>
+           <a href="Jadwal.html" class="menu-button">
+              <span class= "btn-text">CLASS SCHEDULE</span>
+            <a href="table1.html" class="menu-button">
+              <span class= "btn-text" >TABLE 1</span>
+            <a href="table2.html" class="menu-button">
+              <span class="btn-text">TABLE 2</span>
+            <a href="table3.html" class="menu-button">
+              <span class="btn-text">TABLE 3</span>
+      
+
+</body
+<html>

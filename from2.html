@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+
+    <form action="#" method="post" enctype="multipart/form-data"
+          style="width: 250px; border: 1px solid gray; padding: 4px;"
+          font-size: 10px; box-sizing: border-box;">
+
+        <h2 style="margin-top: 0;">Formulir Pendaftaran</h2>
+
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama"
+               placeholder="Masukkan nama" style="width: 150px;">
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"
+               placeholder="nama@email.com" style="width: 150px;">
+        <br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"
+               style="width: 150px;">
+        <br><br>
+
+        <label for="umur">Umur:</label><br>
+        <input type="number" id="umur" name="umur" style="width: 150px;">
+        <br><br>
+
+        <label for="tanggal">Tanggal Lahir:</label><br>
+        <input type="date" id="tanggal" name="tanggal">
+        <br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="laki" name="gender" value="Laki-laki">
+        <label for="laki">Laki-laki</label><br>
+
+        <input type="radio" id="perempuan" name="gender" value="Perempuan">
+        <label for="perempuan">Perempuan</label>
+        <br><br>
+
+        <label>Hobi:</label><br>
+        <input type="checkbox" id="coding" name="hobi" value="Coding">
+        <label for="coding">Coding</label><br>
+
+        <input type="checkbox" id="gaming" name="hobi" value="Gaming">
+        <label for="gaming">Gaming</label><br>
+
+        <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+        <label for="olahraga">Olahraga</label>
+        <br><br>
+
+        <label for="jurusan">Jurusan:</label><br>
+        <select id="jurusan" name="jurusan">
+            <option value="">-- Pilih Jurusan --</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Informatika">Informatika</option>
+            <option value="Manajemen">Manajemen</option>
+            <option value="Akuntansi">Akuntansi</option>
+        </select>
+        <br><br>
+
+        <label for="alamat">Alamat:</label><br>
+        <textarea id="alamat" name="alamat" rows="3" cols="20"
+                  placeholder="Masukkan alamat"></textarea>
+        <br><br>
+
+        <label for="foto">Foto:</label><br>
+        <input type="file" id="foto" name="foto" accept="image/*">
+        <br><br>
+
+        <label for="website">Website:</label><br>
+        <input type="url" id="website" name="website"
+               placeholder="https://example.com" style="width: 150px;">
+        <br><br>
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
